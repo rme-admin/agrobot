@@ -13,6 +13,7 @@ import numpy as np
 import tensorflow as tf
 
 from tensorflow.compat.v1 import ConfigProto
+
 from tensorflow.compat.v1 import InteractiveSession
 
 config = ConfigProto()
@@ -83,7 +84,7 @@ def model_predict(img_path, model):
 @app.route('/', methods=['GET'])
 def index():
     # Main page
-    return render_template('index.html')
+    return render_template('1index.html')
 
 
 @app.route('/predict', methods=['GET', 'POST'])
