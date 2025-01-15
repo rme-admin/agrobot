@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created by Divyansh Mathur
+Created by Pruthviraj and Anish
 """
 
 from __future__ import division, print_function
